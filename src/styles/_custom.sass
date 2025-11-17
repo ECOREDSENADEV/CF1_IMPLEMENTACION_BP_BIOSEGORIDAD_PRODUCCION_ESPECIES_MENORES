@@ -74,6 +74,30 @@ figcaption
     background-color: #FDBAB3
   &-11
     background-color: #1944B6
+  &-12
+    background-color: #FEF0EF
+  &-13
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(232, 249, 243, 1) 20%, rgba(255, 245, 231, 1) 80%, rgba(255, 255, 255, 1) 100%)
+  &-14
+    background-color: #A7E8D2
+  &-15
+    background-color: #E7ECF8
+  &-16
+    background-color: #ffffffe6
+  &-17
+    background-color: #AF817C
+  &-18
+    color: #1944B6 !important
+  &-19
+    background-color: #FEDBA6
+  &-20
+    background-color: #FEECD2
+  &-21
+    background-color: #D2F3E8
+  &-22
+    background-color: #A2B4E2
+  &-23
+    background-color: #102F7F
   &-white
     background-color: white !important
     border: 1px solid $lightest-gray
@@ -107,7 +131,7 @@ figcaption
     background-image: url("../assets/curso/bg1.png") !important
     background-position: top
   &-2
-    //background-image: url("../assets/bg/bg2.png") !important
+    background-image: url("../assets/curso/bg2.svg") !important
     background-position: bottom
   &-slider
     background-image: url("../assets/curso/bg-slider.png") !important
@@ -142,3 +166,53 @@ figcaption
   table
     table-layout: auto
     min-width: 500px
+  
+/////////////ACORDION/////////////
+.acordion__accion__btn--a
+  background-color: #FFE200 !important
+  color: $color-sistema-texto 
+.acordion__activo
+  background-color: #D0D9F1 !important
+.acordion_titulo
+  color: $color-sistema-texto  !important
+.acordion__titulo 
+  h3
+    color: $color-sistema-texto  !important
+.acordion__activo
+  .acordion__titulo 
+    h3
+      color: $color-sistema-texto !important
+
+/////////PASOSB//////////////
+.pasos-b__header__btn--right, .pasos-b__header__btn--left
+  background-color: #FFE200
+
+///////////// CUSTOM LINEA DE TIEMPO D
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #FFA622 !important
+      color: $color-sistema-texto
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #FEDBA6
+
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #D0D9F1
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #adb8c2 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #D0D9F1
+  
+//////////////CUSTON SLYDER-A////////
+.slyder-a__bullets__item 
+  background-color: #D2C099
+  border: #D2C099
+.slyder-a__bullets__item--active
+  background-color: #FFA622
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: #FFE200
