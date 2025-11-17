@@ -133,6 +133,9 @@ figcaption
   &-2
     background-image: url("../assets/curso/bg2.svg") !important
     background-position: bottom
+  &-3
+    background-image: url("../assets/curso/bg3.svg") !important
+    background-position: top
   &-slider
     background-image: url("../assets/curso/bg-slider.png") !important
     background-position: bottom
@@ -216,3 +219,39 @@ figcaption
   background-color: #FFA622
 .slyder-a__btn--atrs, .slyder-a__btn--sigt
   background-color: #FFE200
+
+/////////CUSTOM TABS-B///////////////
+.tabs-b__content-item, .tabs-b__tab.tabs-b__tab--active
+  background-color: #FEF7F6
+.tabs-b__tab
+  background-color: #FEE3E0
+
+////////SOMBRA CAJON//////////
+.shadow-app
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px;
+  border-radius: 8px; /* Opcional, para bordes redondeados */
+
+//////////CUSTOM BOTONES SLYDER-F/////////
+.slyder-f__btn
+  height: 35px
+  width: 35px
+  max-width: 35px
+  background-color: $color-acento-botones
+  border-radius: 50%
+  padding: 0 !important
+  margin: 0 auto
+  .fa-chevron-left
+    font-size: 20px
+  .fa-chevron-right
+    font-size: 20px
+  
+.slyder-f
+    align-items: center
+
+    .slyder-f__main
+      width: 70%
+
+      @media (min-width: 769px)
+        width: 80%
