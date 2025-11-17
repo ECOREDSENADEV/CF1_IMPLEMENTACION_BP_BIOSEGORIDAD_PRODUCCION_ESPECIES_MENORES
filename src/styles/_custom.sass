@@ -57,7 +57,23 @@ figcaption
   &-2
     border: dashed 3px #FDBAB3
   &-3
-    background-color: #D5D1E2
+    background-color: #FEE3E0
+  &-4
+    color: #26C790 !important
+  &-5
+    background-color: #E8F9F3
+  &-6
+    background-color: #26C790
+  &-7
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(232, 249, 243, 1) 20%, rgba(255, 245, 231, 1) 80%, rgba(255, 255, 255, 1) 100%)
+  &-8
+    background-color: #0C225B
+  &-9
+    background-color: #FFA622
+  &-10
+    background-color: #FDBAB3
+  &-11
+    background-color: #1944B6
   &-white
     background-color: white !important
     border: 1px solid $lightest-gray
@@ -96,3 +112,33 @@ figcaption
   &-slider
     background-image: url("../assets/curso/bg-slider.png") !important
     background-position: bottom
+
+//CLASES TITULOS//
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: #FFA622
+  border-radius: 10px
+  padding: 5px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: 0px
+  width: 50px
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 40px
+
+.tbl
+  ///////////////TABLAS/////////////////// 
+  table td
+    text-align: center !important
+  th, td, table thead th, .tabla-a th 
+    border: 2px solid #B5B5B5
+    padding: 15px 10px
+  table
+    table-layout: auto
+    min-width: 500px
