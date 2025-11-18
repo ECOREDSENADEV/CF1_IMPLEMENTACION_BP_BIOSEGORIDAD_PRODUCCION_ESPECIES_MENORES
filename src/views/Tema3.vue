@@ -45,7 +45,7 @@
           .col-md-5
             figure
               img(src='@/assets/curso/tema3/2.png', alt='Texto que describa la imagen')
-      .py-4.py-md-5(titulo="Componentes de la aptitud productiva" :icono="require('@/assets/componentes/3.svg')")
+      .py-4.py-md-5(titulo="Por qué es importante medirla" :icono="require('@/assets/componentes/3.svg')")
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 Por qué es importante medirla
@@ -223,11 +223,79 @@
         p.mb-5 La siguiente tabla resume indicadores clave que permiten comparar aptitudes productivas entre especies menores. Los valores son rangos típicos alcanzables en condiciones comerciales/familiares bien manejadas en Colombia y regiones andinas/tropicales.
 
         .row.justify-content-center.mb-5
-          .col-lg-8.mb-3.mb-lg-0(data-aos="zoom-in").order-lg-2
+          .col-lg-10.mb-3.mb-lg-0(data-aos="zoom-in").order-lg-2
             .titulo-sexto.color-acento-contenido
               h5 Tabla 13.
               span Parámetros productivos de especies pecuarias menores
             .tabla-a.color-acento-contenido.tbl
+              table
+                thead
+                  tr
+                    th.bg-color-9 Especie
+                    th.bg-color-9 Tiempo a faena / ciclo
+                    th.bg-color-9 Peso faena (kg)
+                    th.bg-color-9 Camada / puesta
+                    th.bg-color-9 ADG (g/día)
+                    th.bg-color-9 FCR (kg alimento/kg PV)
+                    th.bg-color-9 Rendimiento canal (%)
+                tbody.bg-color-white
+                  tr
+                    td Cuy
+                    td 60-90 d
+                    td 0.8-1.0
+                    td 2-5 crías
+                    td 6-10
+                    td 4-6
+                    td 60-70
+                  tr.bg-color-sintesis
+                    td Conejo
+                    td 75-90 d
+                    td 2.3-2.5
+                    td 6-10 gazapos
+                    td 25-35
+                    td 3:1
+                    td 55-60
+                  tr
+                    td Broiler
+                    td 35-45 d
+                    td 2.0-2.5
+                    td —
+                    td 45-65
+                    td 1.6-1.9
+                    td 68-75
+                  tr.bg-color-sintesis
+                    td Gallina ponedora
+                    td 72-80 sem (ciclo)
+                    td —
+                    td 280-340 huevos/año
+                    td —
+                    td —
+                    td —
+                  tr
+                    td Codorniz
+                    td 42-56 d (carne) / 10-12 meses (huevos)
+                    td 0.18-0.22
+                    td 280-320 huevos/año
+                    td 3-5
+                    td 2.5:1
+                    td 70-75
+                  tr.bg-color-sintesis
+                    td Cabra (cordero)
+                    td 6-12 meses (según sistema)
+                    td 20-35
+                    td 1-3
+                    td 80-200
+                    td 4-6
+                    td 45-50
+                  tr
+                    td Oveja (cordero)
+                    td 3-6 meses engorde
+                    td 25-40
+                    td 1-2
+                    td 150-220
+                    td 4-6
+                    td 45-55
+
 
 
     separador
