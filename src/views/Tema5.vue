@@ -42,6 +42,34 @@
               h5 Tabla 18.
               span Funciones principales de las especies menores en la economía rural colombiana
             .tabla-a.color-acento-contenido.tbl
+              table
+                thead
+                  tr
+                    th.bg-color-9 Rol
+                    th.bg-color-9 Descripción
+                    th.bg-color-9 Ejemplo en Colombia
+                tbody.bg-color-white
+                  tr
+                    td Alimentario
+                    td Proveen carne, leche y huevos de alto valor nutricional.
+                    td Huevos de codorniz, leche caprina y carne de cuy en Nariño.
+                  tr.bg-color-sintesis
+                    td Económico
+                    td Generan ingresos mediante venta directa, trueque o agregado artesanal.
+                    td Ferias campesinas y mercados verdes en Huila y Antioquia.
+                  tr
+                    td Agroecológico
+                    td Contribuyen al reciclaje de nutrientes mediante estiércol para abono orgánico.
+                    td Compost de conejo y cabra en sistemas hortícolas de Boyacá.
+                  tr.bg-color-sintesis
+                    td Sociocultural
+                    td Fortalecen el tejido social y la transmisión de saberes tradicionales.
+                    td Crianza de ovejas criollas en comunidades wayuu y campesinas.
+                  tr
+                    td Educativo y formativo
+                    td Son herramientas pedagógicas en programas de educación agropecuaria.
+                    td Escuelas rurales del SENA y proyectos “Huertas productivas” del ICA.
+
         
         .titulo-con-imagen.mb-5(data-aos="fade-right")
           .titulo-con-imagen__fondo
@@ -54,7 +82,7 @@
           .col-lg-10
             .bg-color-11.mb-5.p-4.tarjeta(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0.order-lg-2
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0.order-lg-2
                   figure
                     img(src='@/assets/curso/tema5/2.png', alt='')
                 .col-lg.order-lg-1
@@ -80,7 +108,7 @@
         
         .bg-color-3.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema5/3.png', alt='')
             .col-lg

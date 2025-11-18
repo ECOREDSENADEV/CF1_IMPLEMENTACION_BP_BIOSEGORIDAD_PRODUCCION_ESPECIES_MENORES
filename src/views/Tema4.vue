@@ -16,14 +16,14 @@
 
         .bg-color-24.mb-3(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema4/1.svg', alt='')
             .col-lg
               .p-4
                 p.mb-0(data-aos="fade-up") Una línea (o “línea genética”) es un subconjunto dentro de una raza o el resultado de cruces seleccionados, caracterizado por una trayectoria de selección más específica hacia un objetivo técnico concreto (por ejemplo, mayor crecimiento, prolificidad o adaptación ambiental). A diferencia de las razas, las líneas no siempre están completamente fijadas y se utilizan como herramienta para mejorar la productividad de los sistemas.
         .row.align-items-center
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema4/3.svg", style="max-width: 90px").mx-auto
           .col-lg
             p.mb-0 En la producción de cuyes, por ejemplo, muchas denominaciones como “Perú”, “Andina”, “Inti” o “Kuri” se refieren a líneas mejoradas, más que a razas oficialmente reconocidas. Esta distinción es clave para el manejo genético, los planes de cruzamiento, la trazabilidad y el aumento sostenido del rendimiento.
@@ -232,7 +232,7 @@
             p La implementación de líneas genéticas desarrolladas en otros países requiere procesos de adaptación y validación local. Aunque el Manual técnico de crianza de cuyes fue desarrollado en Cajamarca (Perú), estas mismas líneas y tipos han sido difundidos y adaptados en sistemas colombianos familiares y semi-comerciales, especialmente en departamentos andinos como Nariño, Cauca y Huila. En estas regiones se mantienen programas de selección local coordinados con Agrosavia y entidades territoriales. En Colombia se reporta el uso de:
             .bg-color-10.p-4.tarjeta(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema4/11.svg', alt='')
                 .col-lg
@@ -259,9 +259,9 @@
       .col-lg-7.order-lg-1
         p La producción cunícola en Colombia ha crecido como alternativa rentable y sostenible dentro de sistemas agropecuarios familiares y semi-intensivos. El conejo doméstico (Oryctolagus cuniculus) destaca por su alta eficiencia biológica: gestación corta (30-32 días), madurez sexual temprana (4-5 meses) y conversión alimenticia favorable, lo que permite múltiples partos al año y rápida recuperación de inversión.
         .bg-color-5.mb-3
-          .px-4.px-md-5.py-4
+          .px-4.px-md-5.p-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema4/13.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 En Colombia, los principales departamentos productores son Cundinamarca, Antioquia, Valle del Cauca, Nariño, Cauca, Huila, Tolima y Santander. Las asociaciones rurales, universidades y AGROSAVIA han impulsado programas de mejoramiento genético y capacitación técnica. Los objetivos productivos más frecuentes son:
@@ -456,9 +456,9 @@
     p.mb-5 Estas razas se caracterizan por su doble propósito, combinando buenas cualidades cárnicas con pieles de valor comercial y una notable rusticidad.
 
     TabsB.color-acento-contenido.mb-5
-      .py-4.py-md-5(titulo="Chinchilla Gigante" :icono="require('@/assets/componentes/10.svg')")
+      .p-4.py-md-5(titulo="Chinchilla Gigante" :icono="require('@/assets/componentes/10.svg')")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4 Chinchilla Gigante
             ul.lista-ul--color.mb-0
               li.mb-2.d-flex
@@ -491,12 +491,12 @@
               li.mb-2.d-flex
                 i.fa-solid.fa-circle-check
                 p.mb-0 <b>Particularidad</b>: Muy utilizada en artesanía por la calidad de su pelaje.
-          .col-md-5
+          .col-lg-5
             figure
               img(src='@/assets/curso/tema4/19.png', alt='Texto que describa la imagen')
-      .py-4.py-md-5(titulo="<em>Rex</em>" :icono="require('@/assets/componentes/10.svg')")
+      .p-4.py-md-5(titulo="<em>Rex</em>" :icono="require('@/assets/componentes/10.svg')")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4 <em>Rex</em>
             ul.lista-ul--color.mb-0
               li.mb-2.d-flex
@@ -529,12 +529,12 @@
               li.mb-2.d-flex
                 i.fa-solid.fa-circle-check
                 p.mb-0 <b>Particularidad</b>: Piel aterciopelada de alta calidad, muy apreciada en peletería.
-          .col-md-5
+          .col-lg-5
             figure
               img(src='@/assets/curso/tema4/20.png', alt='Texto que describa la imagen') 
-      .py-4.py-md-5(titulo="Mariposa (<em>Papillon</em>)" :icono="require('@/assets/componentes/10.svg')")
+      .p-4.py-md-5(titulo="Mariposa (<em>Papillon</em>)" :icono="require('@/assets/componentes/10.svg')")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4 Mariposa (<em>Papillon</em>)
             ul.lista-ul--color.mb-0
               li.mb-2.d-flex
@@ -564,7 +564,7 @@
               li.mb-2.d-flex
                 i.fa-solid.fa-circle-check
                 p.mb-0 <b>Particularidad</b>: Alta adaptabilidad a climas cálidos y buen comportamiento en sistemas familiares.
-          .col-md-5
+          .col-lg-5
             figure
               img(src='@/assets/curso/tema4/21.png', alt='Texto que describa la imagen')     
 
@@ -581,7 +581,7 @@
           .col-lg-10
             .bg-color-6.mb-5.p-4.tarjeta(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema4/22.png', alt='')
                 .col-lg
@@ -712,7 +712,7 @@
           .col-lg-10
             .bg-color-10.mb-5.p-4.tarjeta(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema4/23.png', alt='')
                 .col-lg
@@ -1066,7 +1066,7 @@
     
     .bg-color-3.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg-auto.mb-3.mb-lg-0
+        .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema4/30.png', alt='')
         .col-lg
@@ -1131,7 +1131,7 @@
       .col-lg-7.order-1.mb-3.mb-lg-0
         .bg-color-10.p-4.tarjeta(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema4/32.png', alt='')
             .col-lg
@@ -1243,7 +1243,7 @@
           .col-lg-9.order-lg-1
             .bg-color-10.p-4.tarjeta(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema4/36.svg', alt='')
                 .col-lg
@@ -1267,7 +1267,7 @@
           .col-lg-10
             .bg-color-19.mb-5.p-4.tarjeta(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema4/37.png', alt='')
                 .col-lg
@@ -1295,9 +1295,9 @@
       .col-lg-7.order-lg-1
         p La caprinocultura en Colombia cumple un papel fundamental en zonas de clima seco y montaña, siendo una fuente importante de proteína animal, ingreso familiar y resiliencia agroecológica. Su desarrollo ha sido promovido por programas locales de mejoramiento, especialmente en zonas donde otras especies tienen menor adaptación.
         .bg-color-5.mb-3
-          .px-4.px-md-5.py-4
+          .px-4.px-md-5.p-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema4/38-1.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 Departamentos con mayor presencia: La Guajira, Cesar, Huila, Boyacá, Tolima, Nariño, Santander y Valle del Cauca. Las razas de cabras presentes en el país se agrupan en tres grandes tipos: lecheras, cárnicas y criollas. A continuación, se describen las más representativas.
@@ -1309,7 +1309,7 @@
     
     p.mb-5 Estas razas se destacan por su alto rendimiento lácteo, rusticidad y adaptación a diversas condiciones agroecológicas, siendo fundamentales en la producción caprina de Colombia.
 
-    AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-14")
+    AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-14").mb-5
       .div(titulo="Alpina Francesa")
         .row.align-items-start.mb-5
           .col-lg-4.mb-3.mb-lg-0.order-lg-2
@@ -1400,9 +1400,9 @@
     p.mb-5 Estas razas se valoran por su rápido crecimiento, alto peso al sacrificio y buen rendimiento en canal, características que las hacen esenciales en los sistemas de producción de carne caprina en Colombia.
 
     TabsB.color-acento-contenido.mb-5
-      .py-4.py-md-5(titulo="<em>Boer</em>" :icono="require('@/assets/componentes/4.svg')")
+      .p-4.py-md-5(titulo="<em>Boer</em>" :icono="require('@/assets/componentes/4.svg')")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h5 <em>Boer</em>
             ul.lista-ul--color.mb-0
               li.mb-2.d-flex
@@ -1429,12 +1429,12 @@
               li.mb-2.d-flex
                 i.fa-solid.fa-circle-check
                 p.mb-0 <b>Zonas</b>: Valle del Cauca, Huila y Costa Atlántica.
-          .col-md-5
+          .col-lg-5
             figure
               img(src='@/assets/curso/tema4/42.png', alt='Texto que describa la imagen')
-      .py-4.py-md-5(titulo="<em>Anglo Nubian</em>" :icono="require('@/assets/componentes/4.svg')")
+      .p-4.py-md-5(titulo="<em>Anglo Nubian</em>" :icono="require('@/assets/componentes/4.svg')")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4 <em>Anglo Nubian</em>
             ul.lista-ul--color.mb-0
               li.mb-2.d-flex
@@ -1458,7 +1458,7 @@
               li.mb-2.d-flex
                 i.fa-solid.fa-circle-check
                 p.mb-0 <b>Uso en Colombia</b>: utilizada en cruzamientos en zonas cálidas como Cesar, La Guajira y Huila. 
-          .col-md-5
+          .col-lg-5
             figure
               img(src='@/assets/curso/tema4/43.png', alt='Texto que describa la imagen')
 
@@ -1475,7 +1475,7 @@
           .col-lg-10
             .bg-color-6.mb-5.p-4.tarjeta(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema4/44.png', alt='')
                 .col-lg
@@ -1516,9 +1516,9 @@
           .col-lg-7.order-lg-1
             p La ovinocultura en Colombia ha mostrado crecimiento en las últimas décadas, con una población superior a los 2 millones de animales (ICA, 2024). Se enfoca en la producción de carne, leche artesanal, lana y fibra, especialmente en climas cálidos secos y zonas de altura.
             .bg-color-3.mb-3
-              .px-4.px-md-5.py-4
+              .px-4.px-md-5.p-4
                 .row.align-items-center
-                  .col-lg-auto
+                  .col-lg-auto.mb-3.mb-lg-0
                     img(src="@/assets/curso/tema4/46.svg", style="max-width: 90px").mx-auto
                   .col-lg
                     p.mb-0 <b>Zonas con mayor desarrollo</b>: Costa Atlántica (Córdoba, Sucre, Cesar, Guajira), Santander, Tolima, Boyacá y Nariño.
@@ -1625,9 +1625,9 @@
     p.mb-5 Estas razas combinan una buena producción cárnica con lana de calidad aceptable, adaptándose a diferentes condiciones climáticas y sistemas productivos.
 
     TabsB.color-acento-contenido.mb-5
-      .py-4.py-md-5(titulo="<em>Romney Marsh</em>" :icono="require('@/assets/componentes/4.svg')")
+      .p-4.py-md-5(titulo="<em>Romney Marsh</em>" :icono="require('@/assets/componentes/4.svg')")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h5 <em>Romney Marsh</em>
             ul.lista-ul--color.mb-0
               li.mb-2.d-flex
@@ -1648,12 +1648,12 @@
               li.mb-2.d-flex
                 i.fa-solid.fa-circle-check
                 p.mb-0 <b>Zonas</b>: Boyacá y Nariño
-          .col-md-5
+          .col-lg-5
             figure
               img(src='@/assets/curso/tema4/50.png', alt='Texto que describa la imagen')
-      .py-4.py-md-5(titulo="<em>Corriedale</em>" :icono="require('@/assets/componentes/4.svg')")
+      .p-4.py-md-5(titulo="<em>Corriedale</em>" :icono="require('@/assets/componentes/4.svg')")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4 <em>Corriedale</em>
             ul.lista-ul--color.mb-0
               li.mb-2.d-flex
@@ -1674,12 +1674,12 @@
               li.mb-2.d-flex
                 i.fa-solid.fa-circle-check
                 p.mb-0 <b>Aptitud</b>: doble propósito (carne y lana).
-          .col-md-5
+          .col-lg-5
             figure
               img(src='@/assets/curso/tema4/51.png', alt='Texto que describa la imagen')
-      .py-4.py-md-5(titulo="Criolla colombiana" :icono="require('@/assets/componentes/4.svg')")
+      .p-4.py-md-5(titulo="Criolla colombiana" :icono="require('@/assets/componentes/4.svg')")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4 Criolla colombiana
             ul.lista-ul--color.mb-0
               li.mb-2.d-flex
@@ -1700,7 +1700,7 @@
               li.mb-2.d-flex
                 i.fa-solid.fa-circle-check
                 p.mb-0 <b>Observaciones</b>: alta resistencia a condiciones tropicales y excelente adaptación a sistemas extensivos.
-          .col-md-5
+          .col-lg-5
             figure
               img(src='@/assets/curso/tema4/52.png', alt='Texto que describa la imagen')
 

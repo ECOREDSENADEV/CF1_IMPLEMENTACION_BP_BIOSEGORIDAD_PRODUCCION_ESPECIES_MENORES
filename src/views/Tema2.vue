@@ -88,7 +88,7 @@
           .col-lg-10
             .bg-color-11.mb-5.p-4.tarjeta(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema2/5.png', alt='')
                 .col-lg
@@ -139,7 +139,7 @@
         .tarjeta.bg-color-16.p-4
           PasosB.color-acento-contenido
             .row(titulo="Paso 1").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 a)	Selección de reproductores
                 ul.lista-ul--color.mb-0
                   li.mb-3.d-flex
@@ -157,11 +157,11 @@
                   li.mb-3.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 Se priorizan líneas adaptadas a la altura (Nariño, Cauca, Boyacá).
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/7.svg', alt='Texto que describa la imagen')
             .row(titulo="Paso 2").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 b)	Empadre o monta
                 ul.lista-ul--color.mb-0
                   li.mb-3.d-flex
@@ -176,11 +176,11 @@
                   li.mb-3.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 El celo de la hembra ocurre cada 15-18 días y dura entre 6 y 11 horas.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/9.svg', alt='Texto que describa la imagen')
             .row(titulo="Paso 3").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 c)	Gestación
                 ul.lista-ul--color.mb-0
                   li.mb-3.d-flex
@@ -198,11 +198,11 @@
                   li.mb-3.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 En los últimos 10 días, se recomienda alojamiento individual para reducir el estrés.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/10.svg', alt='Texto que describa la imagen')
             .row(titulo="Paso 4").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 d)	Parto
                 ul.lista-ul--color.mb-0
                   li.mb-3.d-flex
@@ -217,11 +217,11 @@
                   li.mb-3.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 Requiere cama limpia y sin corrientes de aire
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/11.svg', alt='Texto que describa la imagen')
             .row(titulo="Paso 5").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 e)	Lactancia y destete
                 ul.lista-ul--color.mb-0
                   li.mb-3.d-flex
@@ -239,11 +239,11 @@
                   li.mb-3.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 Las hembras pueden entrar en celo 12-24 horas después del parto.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/12.svg', alt='Texto que describa la imagen')
             .row(titulo="Paso 6").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 f)	Recría o engorde
                 ul.lista-ul--color.mb-0
                   li.mb-3.d-flex
@@ -261,11 +261,11 @@
                   li.mb-3.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 Peso final: 800-1000 g.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/13.svg', alt='Texto que describa la imagen')
             .row(titulo="Paso 7").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 g)	Reemplazo de reproductores
                 ul.lista-ul--color.mb-0
                   li.mb-3.d-flex
@@ -277,7 +277,7 @@
                   li.mb-3.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 Se seleccionan animales jóvenes con mejores condiciones genéticas y sanitarias.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/8.svg', alt='Texto que describa la imagen')
         
@@ -360,7 +360,7 @@
           .col-lg-10
             .bg-color-17.mb-5.p-4.tarjeta(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema2/17.svg', alt='')
                 .col-lg
@@ -389,7 +389,7 @@
           .col-lg-10
             .bg-color-17.mb-5.p-4.tarjeta(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0.order-lg-2
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0.order-lg-2
                   figure
                     img(src='@/assets/curso/tema2/18.png', alt='')
                 .col-lg.order-lg-1
@@ -447,7 +447,7 @@
         .tarjeta.bg-color-16.p-4
           PasosB.color-acento-contenido
             .row(titulo="Paso 1").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 a) Selección de reproductores
                 ul.lista-ul--color.mb-0
                   li.mb-2.d-flex
@@ -465,11 +465,11 @@
                   li.mb-2.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 Los reproductores deben estar libres de enfermedades y presentar buen estado corporal.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/20.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 2").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 b) Empadre o monta
                 ul.lista-ul--color.mb-0
                   li.mb-2.d-flex
@@ -498,11 +498,11 @@
                   li.mb-2.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 Relación óptima: 1 macho por cada 10 hembras.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/21.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 3").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 c)	Gestación
                 ul.lista-ul--color.mb-0
                   li.mb-2.d-flex
@@ -523,11 +523,11 @@
                   li.mb-2.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 Jaulas Colocar caja-nido a los 25 días de gestación.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/22.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 4").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 d)	Parto
                 ul.lista-ul--color.mb-0
                   li.mb-2.d-flex
@@ -545,11 +545,11 @@
                   li.mb-2.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 Temperatura del nido: 30-32 °C.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/23.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 5").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 e)	Lactancia y destete
                 ul.lista-ul--color.mb-0
                   li.mb-2.d-flex
@@ -567,11 +567,11 @@
                   li.mb-2.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 Destete al día 28, separando por sexo y tamaño.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/24.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 6").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 f)	Recría o engorde
                 ul.lista-ul--color.mb-0
                   li.mb-2.d-flex
@@ -592,11 +592,11 @@
                   li.mb-2.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 Densidad recomendada: 5-6 animales/m².
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/25.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 7").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 g)	Finalización y comercialización
                 ul.lista-ul--color.mb-0
                   li.mb-2.d-flex
@@ -614,7 +614,7 @@
                   li.mb-2.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 Reproductores se reemplazan cada 2-3 años en sistemas familiares. 
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/26.png', alt='Texto que describa la imagen')
     
@@ -685,7 +685,7 @@
         
             .bg-color-10.p-4(data-aos="fade-left")
               .row.align-items-center
-                .col-lg-auto.order-2
+                .col-lg-auto.mb-3.mb-lg-0.order-2
                   img(src="@/assets/curso/tema2/29.svg", style="max-width: 174px").mx-auto
                 .col-lg.order-1.mb-3.mb-lg-0
                   .bg-color-white.p-4.tarjeta
@@ -717,7 +717,7 @@
     
         .bg-color-19.tarjeta.p-4(data-aos="fade-left")
           .row.align-items-start
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema2/30-1.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 La regulación de estas prácticas está definida por la Resolución ICA 3642 de 2013 y la Resolución ICA 68167 de 2020, que establecen las normas para la producción, manejo sanitario y bienestar de especies menores.
@@ -743,7 +743,7 @@
         .tarjeta.bg-color-16.p-4
           PasosB.color-acento-contenido
             .row(titulo="Paso 1").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Selección de reproductores y obtención de pollitos
                 ul.lista-ul--color.mb-0
                   li.mb-2.d-flex
@@ -755,11 +755,11 @@
                   li.mb-2.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 Pollitos trasladados a granjas de engorde certificadas.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/32.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 2").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Cría (0-14 días)
                 ul.lista-ul--color.mb-0
                   li.mb-2.d-flex
@@ -771,11 +771,11 @@
                   li.mb-2.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 Alimentación balanceada y vacunación inicial (<em>Newcastle, Gumboro</em>).
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/33.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 3").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Crecimiento (15-28 días)
                 ul.lista-ul--color.mb-0
                   li.mb-2.d-flex
@@ -787,11 +787,11 @@
                   li.mb-2.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 Control ambiental y limpieza de cama.   
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/34.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 4").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Engorde (29-42 días)
                 ul.lista-ul--color.mb-0
                   li.mb-2.d-flex
@@ -806,11 +806,11 @@
                   li.mb-2.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 Mortalidad menor al 5 %.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/35.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 5").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Sacrificio o faena
                 ul.lista-ul--color.mb-0
                   li.mb-2.d-flex
@@ -819,7 +819,7 @@
                   li.mb-2.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 Sacrificio con trazabilidad y cumplimiento de normas de inocuidad.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/36.png', alt='Texto que describa la imagen')
 
@@ -946,7 +946,7 @@
           .col-lg-10
             .bg-color-19.mb-5.p-4.tarjeta(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0.order-lg-2
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0.order-lg-2
                   figure
                     img(src='@/assets/curso/tema2/40.png', alt='')
                 .col-lg.order-lg-1
@@ -990,19 +990,19 @@
       .col-lg-9
         .bg-color-21.p-4(data-aos="fade-left").tarjeta
           .row
-            .col-lg-3
+            .col-lg-3.mb-3.mb-lg-0
               .bg-color-white.tarjeta.p-3.text-center.h-100
                 h5 Duración total
                 p.mb-0 6-8 semanas
-            .col-lg-3
+            .col-lg-3.mb-3.mb-lg-0
               .bg-color-white.tarjeta.p-3.text-center.h-100
                 h5 Inicio de postura
                 p.mb-0 Entre los 38 y 42 días de edad
-            .col-lg-3
+            .col-lg-3.mb-3.mb-lg-0
               .bg-color-white.tarjeta.p-3.text-center.h-100
                 h5 Vida productiva
                 p.mb-0 Aproximadamente 10-12 meses
-            .col-lg-3
+            .col-lg-3.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema2/43.svg", data-aos="zoom-in")
     
@@ -1029,7 +1029,7 @@
         .tarjeta.bg-color-16.p-4
           PasosB.color-acento-contenido
             .row(titulo="Paso 1").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Selección de reproductores
                 p Se eligen aves de líneas genéticas diferenciadas según el propósito productivo:
                 ul.lista-ul--color.mb-0
@@ -1040,11 +1040,11 @@
                     i.fa-solid.fa-circle-check
                     p.mb-0 Líneas de carne: aves de mayor peso corporal, crecimiento acelerado y mejor rendimiento de canal.
                 p La selección considera la adaptación al clima local, la sanidad del plantel y el cumplimiento de las normas de bioseguridad (Resolución ICA 68167 de 2020).
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/45.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 2").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Incubación y nacimiento
                 ul.lista-ul--color.mb-0
                   li.mb-2.d-flex
@@ -1056,11 +1056,11 @@
                   li.mb-2.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 Los pollitos son precoces y activos al nacimiento, por lo que rápidamente pasan a la fase de cría bajo condiciones controladas.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/46.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 3").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Cría y crecimiento inicial (0-21 días)
                 ul.lista-ul--color.mb-0
                   li.mb-2.d-flex
@@ -1078,11 +1078,11 @@
                   li.mb-2.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 La mortalidad aceptable en esta fase es menor al 7 %. 
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/47.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 4").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Producción de huevos
                 ul.lista-ul--color.mb-0
                   li.mb-2.d-flex
@@ -1103,11 +1103,11 @@
                   li.mb-2.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 Factores clave: iluminación (16-17 horas diarias), alimentación balanceada, ventilación y control sanitario.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/48.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 5").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Producción de carne
                 ul.lista-ul--color.mb-0
                   li.mb-2.d-flex
@@ -1125,16 +1125,16 @@
                   li.mb-2.d-flex
                     i.fa-solid.fa-circle-check
                     p.mb-0 Rendimiento en canal: 70-75 %.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/49.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 6").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Finalización y reemplazo
                 p Al término de su vida productiva (10-12 meses), las codornices son descartadas o utilizadas para carne, y se reemplazan por nuevas generaciones.
                 p El corto ciclo permite rotaciones múltiples durante el año, optimizando la utilización de espacio y recursos.
 
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/50.png', alt='Texto que describa la imagen')
     
@@ -1196,7 +1196,7 @@
       .col-lg-10
         .bg-color-6.mb-5.p-4.tarjeta(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0.order-lg-2
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0.order-lg-2
               figure
                 img(src='@/assets/curso/tema2/52.png', alt='')
             .col-lg.order-lg-1
@@ -1218,9 +1218,9 @@
     .row.justify-content-center 
       .col-lg-10
         .bg-color-5.tarjeta.mb-5
-          .px-4.px-md-5.py-4
+          .px-4.px-md-5.p-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/53.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 El ciclo productivo de la codorniz se caracteriza por su precocidad, alta eficiencia y rentabilidad, siendo ideal para sistemas productivos sostenibles e intensivos. En Colombia, su desarrollo aporta al fortalecimiento de la economía rural y a la diversificación de las especies menores, siempre dentro del cumplimiento de las Buenas Prácticas Pecuarias (BPP), la bioseguridad y las normas sanitarias vigentes.
@@ -1254,7 +1254,7 @@
           .col-lg-10
             .bg-color-11.mb-5.p-4.tarjeta(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0.order-lg-2
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0.order-lg-2
                   figure
                     img(src='@/assets/curso/tema2/56.png', alt='')
                 .col-lg.order-lg-1
@@ -1291,52 +1291,52 @@
         .tarjeta.bg-color-16.p-4
           PasosB.color-acento-contenido
             .row(titulo="Paso 1").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Selección de reproductores
                 p Se seleccionan machos y hembras de razas rústicas o especializadas según el objetivo productivo (carne, leche o doble propósito). Los criterios incluyen buen estado corporal, alta fertilidad, antecedentes de partos exitosos, buena conformación mamaria en cabras lecheras y ausencia de defectos genéticos o físicos. En Colombia predominan razas criollas, <em>Anglonubia, Alpina, Saanen y Boer</em>, adaptadas a sistemas familiares o de pastoreo bajo condiciones tropicales.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/58.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 2").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Empadre / monta / cobertura
                 p El empadre puede ser natural continuo (convivencia constante con el macho) o controlado/estacional, programado para coincidir con épocas de buena oferta de forraje. La relación macho:hembra recomendada es 1:25. La edad de primera monta es de 8-10 meses, siempre que el animal alcance al menos el 60 % del peso adulto. Con buena planificación alimenticia y sanitaria, es posible obtener tres partos en dos años (CONtexto Ganadero, 2023).
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/59.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 3").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Gestación
                 p La gestación dura entre 145 y 155 días (≈ 5 meses). El número de crías por parto oscila entre 1 y 3, dependiendo de la raza y el manejo nutricional. Durante esta etapa se debe garantizar una dieta balanceada y controlar enfermedades parasitarias y abortivas. Se recomienda suplementación energética y proteica en el último tercio del embarazo para evitar partos distócicos y mejorar la vitalidad de las crías.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/60.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 4").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Parto
                 p El parto es una fase crítica del ciclo. Debe llevarse a cabo en instalaciones limpias, secas y tranquilas, con supervisión para evitar complicaciones. La atención posparto incluye la limpieza del ombligo con antiséptico, asegurar el calostrado en las primeras seis horas de vida y el monitoreo del estado corporal de la madre.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/61.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 5").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Lactancia y crecimiento de crías
                 p La lactancia dura entre 60 y 90 días. Durante este periodo, los cabritos maman y comienzan a consumir forraje tierno o concentrado iniciador. En cabras lecheras se realiza el ordeño diario posterior al amamantamiento parcial o tras destete temprano. En sistemas de doble propósito, parte de la leche se destina al consumo humano y parte se reserva para el desarrollo de las crías. El destete se lleva a cabo cuando los cabritos alcanzan entre 8 y 12 kg de peso vivo.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/62.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 6").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Recría / engorde / producción de leche
                 p En sistemas de carne, los cabritos se engordan hasta alcanzar 25-30 kg, momento ideal para su venta o sacrificio. En sistemas lecheros, la cabra entra en fase de producción de leche que puede extenderse de 120 a 300 días, según la raza y el manejo. Se recomienda un intervalo servicio-parto de aproximadamente 45 días en sistemas intensivos para conservar la eficiencia reproductiva. En Colombia, las razas Saanen y Alpina alcanzan producciones de 250-350 litros por lactancia, mientras que las razas criollas producen entre 80 y 150 litros en sistemas familiares.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/63.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 6").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Finalización y reemplazo
                 p Al finalizar la lactancia o cuando la cabra presenta una disminución en su productividad, se procede a su reemplazo. Se seleccionan hembras jóvenes de alto potencial genético, y se descartan los animales con enfermedades o bajo rendimiento. También se comercializa la carne, la leche excedente y los subproductos como piel, estiércol o quesos artesanales. El ciclo reproductivo puede repetirse cada 8-10 meses en unidades familiares o semiintensivas.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/64.png', alt='Texto que describa la imagen')
     
@@ -1417,9 +1417,9 @@
     .row.justify-content-center 
       .col-lg-10
         .bg-color-23.tarjeta.mb-5
-          .px-4.px-md-5.py-4
+          .px-4.px-md-5.p-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/67.svg", style="max-width: 90px").mx-auto
               .col-lg.text-white
                 p.mb-0 El ciclo productivo de la cabra combina eficiencia reproductiva, rusticidad y diversidad de productos, posicionándola como una especie estratégica para los sistemas pecuarios sostenibles en Colombia. Su aprovechamiento integral —leche, carne, piel y abono— permite fortalecer la economía rural y fomentar la resiliencia frente al cambio climático.
@@ -1431,7 +1431,7 @@
     
     .bg-color-3.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg-auto.mb-3.mb-lg-0
+        .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema2/68.png', alt='')
         .col-lg
@@ -1449,7 +1449,7 @@
       .col-lg-10
         .bg-color-10.mb-5.p-4.tarjeta(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0.order-lg-2
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0.order-lg-2
               figure
                 img(src='@/assets/curso/tema2/69.png', alt='')
             .col-lg.order-lg-1
@@ -1486,52 +1486,52 @@
         .tarjeta.bg-color-16.p-4
           PasosB.color-acento-contenido
             .row(titulo="Paso 1").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Selección de reproductores
                 p Se escogen hembras y carneros con buena conformación, sanidad comprobada, buena fertilidad y producción esperada según la línea (carne o lana). En Colombia se usan razas como <em>Pelibuey, Katahdin</em>, Santa Inés, <em>Dorper</em> y criolla. Los carneros deben tener libido activa, buen aplomo y testículos simétricos.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/71.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 2").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Empadre / monta / cobertura
                 p El empadre puede ser natural o sincronizado. La estacionalidad reproductiva de algunas razas puede ser limitada por fotoperiodo. En razas tropicalizadas, el empadre es continuo o planificado. La relación macho:hembra recomendada es de 1:30. Se puede usar inseminación artificial en programas de mejoramiento.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/72.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 3").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Gestación
                 p La gestación dura entre 144 y 152 días (~5 meses). El número de crías por parto varía entre 1 y 3. Se debe brindar nutrición adecuada y monitoreo sanitario para prevenir toxemias, abortos y deficiencias. En el último tercio se aumenta la energía y proteína de la dieta.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/73.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 4").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Parto
                 p Se debe asegurar higiene, sombra, cama seca y asistencia en caso de distocias. El parto suele ser rápido (1-2 h). El calostro debe administrarse dentro de las primeras 6 horas. Se realiza corte y desinfección del ombligo, y se verifica la viabilidad del cordero.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/74.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 5").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Lactancia y crecimiento inicial
                 p La lactancia dura de 60 a 90 días. Durante este tiempo los corderos maman y pueden recibir <em>creep feeding</em> a partir de los 15 días. En sistemas de doble propósito se puede ordeñar parcialmente a la madre. El destete se realiza a los 2-3 meses, cuando el cordero pesa entre 12 y 18 kg.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/75.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 6").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Recría / engorde / producción de leche
                 p En sistemas de carne, los corderos se engordan hasta los 30-40 kg (4-5 meses). En sistemas lecheros, la oveja produce durante 120-180 días. Las razas lecheras como <em>Lacaune o East Friesian</em> requieren ordeño dos veces al día. La conversión alimenticia mejora con pasturas de calidad y suplementos.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/76.png', alt='Texto que describa la imagen')
             .row(titulo="Paso 6").p-5
-              .col-md-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 h5.mb-5 Finalización y reemplazo
                 p Una vez termina la lactancia o se reduce la productividad, se reemplazan las ovejas por hembras jóvenes seleccionadas. Los animales viejos o improductivos se destinan a carne. El estiércol ovino puede aprovecharse como fertilizante orgánico.
-              .col-md-5
+              .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/77.png', alt='Texto que describa la imagen')
     
@@ -1630,9 +1630,9 @@
     .row.justify-content-center 
       .col-lg-10
         .bg-color-3.tarjeta.mb-5
-          .px-4.px-md-5.py-4
+          .px-4.px-md-5.p-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/82.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 El ciclo productivo de la oveja combina eficiencia reproductiva, rusticidad y diversificación de productos (carne, leche, lana), lo que permite su integración en sistemas sostenibles de producción familiar o semi intensiva en Colombia. Su contribución a la seguridad alimentaria rural, el empleo y la fertilización de suelos con estiércol la convierten en una especie de alto valor estratégico en zonas rurales del país.

@@ -22,9 +22,9 @@
     p.mb-5 Aptitud productiva es la capacidad genética y fisiológica de un animal o línea para expresar una determinada producción bajo condiciones de manejo específicas (carne, leche, huevos, fibra). No es solo un rasgo genético: resulta de la interacción entre genética × ambiente × manejo. En términos zootécnicos, se mide mediante indicadores cuantificables que permiten comparar animales, lotes y sistemas productivos.
 
     TabsB.color-acento-contenido.mb-5
-      .py-4.py-md-5(titulo="Componentes de la aptitud productiva" :icono="require('@/assets/componentes/2.svg')")
+      .p-4.py-md-5(titulo="Componentes de la aptitud productiva" :icono="require('@/assets/componentes/2.svg')")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4 Componentes de la aptitud productiva
             ul.lista-ul--color.mb-0
               li.mb-2.d-flex
@@ -42,12 +42,12 @@
               li.mb-2.d-flex
                 i.fa-solid.fa-circle-check
                 p.mb-0 <b>Economía y mercado</b>: precio, demanda y cadena de valor que incentiva determinadas aptitudes
-          .col-md-5
+          .col-lg-5
             figure
               img(src='@/assets/curso/tema3/2.png', alt='Texto que describa la imagen')
-      .py-4.py-md-5(titulo="Por qué es importante medirla" :icono="require('@/assets/componentes/3.svg')")
+      .p-4.py-md-5(titulo="Por qué es importante medirla" :icono="require('@/assets/componentes/3.svg')")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4 Por qué es importante medirla
             p Medir la aptitud productiva permite:
             ul.lista-ul--color.mb-0
@@ -63,7 +63,7 @@
               li.mb-2.d-flex
                 i.fa-solid.fa-circle-check
                 p.mb-0 Detectar cuellos de botella (por ejemplo, baja conversión alimenticia o alta mortalidad neonatal)
-          .col-md-5
+          .col-lg-5
             figure
               img(src='@/assets/curso/tema3/3.png', alt='Texto que describa la imagen')
     
@@ -385,7 +385,7 @@
           .col-lg-8
             .bg-color-3.p-4.tarjeta(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0.order-lg-2
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0.order-lg-2
                   figure
                     img(src='@/assets/curso/tema3/14.svg', alt='')
                 .col-lg.order-lg-1
@@ -451,7 +451,7 @@
         .bg-color-8.mb-5
           .p-4
             .row.justify-content-center.align-items-center
-              .col-lg-5
+              .col-lg-5.mb-3.mb-lg-0
                 figure
                   img(src="@/assets/curso/tema3/17.svg", data-aos="zoom-in")
               .col-lg-7
